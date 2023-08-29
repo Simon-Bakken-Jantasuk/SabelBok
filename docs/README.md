@@ -5,10 +5,14 @@ Datoen er 2023-08-29...
 
 Imorgen går ut datoen på en skolebok jeg har kjøpt...
 
+![Stress](https://media.giphy.com/media/Ta3v3I4GI1gH7Rqek6/giphy.gif) 
+
 Jeg har eksamen om noen månder...
 
 Jeg har to valg...
 
+![Tenker](https://media.giphy.com/media/kPtv3UIPrv36cjxqLs/giphy.gif) 
+** 
 1. Kjøp den samme boken som jeg har betalt for fire hundre lapper!
 2. Piratkopiere boken for privatbruk!
 
@@ -18,8 +22,9 @@ SabelBok!– en lett skript skrevet i python.
 
 #### Hvordan funker det?
 
-Vi bruker biblioteket selenium til å logge oss in– slik at vi har tilgang til nettsiden.
+![Hacking](https://media.giphy.com/media/QdFeImLAY3jEs/giphy.gif) 
 
+Vi bruker biblioteket selenium til å logge oss in– slik at vi har tilgang til nettsiden.
 
 ```python
 username_field = driver.find_element(By.ID, 'username')
@@ -60,6 +65,8 @@ for i in range(len(page_numbers)):
 driver.quit()
 print("Done!")
 ```
+
+![Suksess!](https://media.giphy.com/media/92jYkH87yxV1C/giphy.gif) 
 
 Og da har du lagret hele boken! 
 
