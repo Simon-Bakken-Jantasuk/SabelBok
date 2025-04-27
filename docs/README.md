@@ -1,4 +1,8 @@
 # SabelBok
+
+<p align="center">
+    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgfx.nrk.no%2F8MyFeBD5CuJ1PscQHDBltgHoFTRKmzNFt4kEMTlpBH0g&f=1&nofb=1&ipt=f96cd518d42dbccd386ec3b4f691aaf003905d12e8e8a6e0ce444b0928124b3a" />
+</p>
 Kjedelig med utgående lisenser på bøker på unibok.no og må kjøpe igjen? Bruk SabelBok skriptet til å lagre dine bøker!
 
 Datoen er 2023-08-29...
@@ -20,7 +24,7 @@ Jeg programmerte en skript så raskt som mulig!– og er da SabelBok ble laget!
 
 SabelBok!– en lett skript skrevet i python. 
 
-#### Hvordan funker det?
+## Hvordan funker det?
 
 ![Hacking](https://media.giphy.com/media/QdFeImLAY3jEs/giphy.gif) 
 
