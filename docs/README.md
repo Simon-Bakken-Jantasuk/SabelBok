@@ -3,6 +3,7 @@
 <p align="center">
     <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fgfx.nrk.no%2F8MyFeBD5CuJ1PscQHDBltgHoFTRKmzNFt4kEMTlpBH0g&f=1&nofb=1&ipt=f96cd518d42dbccd386ec3b4f691aaf003905d12e8e8a6e0ce444b0928124b3a" />
 </p>
+
 Kjedelig med utgående lisenser på bøker på unibok.no og må kjøpe igjen? Bruk SabelBok skriptet til å lagre dine bøker!
 
 Datoen er 2023-08-29...
@@ -16,7 +17,7 @@ Jeg har eksamen om noen månder...
 Jeg har to valg...
 
 ![Tenker](https://media.giphy.com/media/kPtv3UIPrv36cjxqLs/giphy.gif) 
-** 
+
 1. Kjøp den samme boken som jeg har betalt for fire hundre lapper!
 2. Piratkopiere boken for privatbruk!
 
