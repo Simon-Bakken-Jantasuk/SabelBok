@@ -20,7 +20,7 @@ Jeg har to valg...
 1. Kjøp den samme boken som jeg har betalt for fire hundre lapper!
 2. Piratkopiere boken for privatbruk!
 
-Jeg programmerte en skript så raskt som mulig!– og er da SabelBok ble laget!
+Jeg skal faen meg ikke betale en dritt!
 
 SabelBok!– en lett skript skrevet i python. 
 
@@ -28,7 +28,7 @@ SabelBok!– en lett skript skrevet i python.
 
 ![Hacking](https://media.giphy.com/media/QdFeImLAY3jEs/giphy.gif) 
 
-Vi bruker biblioteket selenium til å logge oss in– slik at vi har tilgang til nettsiden.
+Vi bruker `selenium` til å logge oss in slik at vi har tilgang til nettsiden.
 
 ```python
 username_field = driver.find_element(By.ID, 'username')
@@ -37,9 +37,9 @@ username_field.send_keys(username)
 password_field.send_keys(password)
 ```
 
-Etter å ha gått gjennom og sjekket ut hvordan ting fungerer, så la jeg merke til at innholdet til selve kapittelene er i en iframe tag. Du kan lett teste dette ut ved å høyreklikke og trykke på frame content, der får du en xhtml med selve innholdet. Såklart så kan vi ikke gjøre dette her manuelt, så vi må fortsette å automatisere det med selenium. Jeg fant ut at den siste delen av linken for en bok er selve sidetallene, så jeg lagret dette i en liste.
+Etter å ha gått gjennom og sjekket ut hvordan ting fungerer, så la jeg merke til at innholdet til selve kapittelene er i en iframe-tag. Du kan lett teste dette ut ved å høyreklikke og trykke på frame content, der får du en `xhtml` med selve innholdet. Etter det, så fant jeg ut at den siste delene av linkene for en bok er selve sidetallene, så jeg lagret dette i en liste.
 
-Vi bruker dermed `find_element` og `switch_to` til å fokusere oss på iframe-tagget, her kan vi bruke `page_source` til å hente innholdet. Vi bruker således en for-løkkentil å gå gjennom alle side tallene slik at vi kan gjennom for-løkken bruke `driver.get` til å navigere oss gjennom alle kapittelene. Før dette, så lagrer vi iframe innholdet i strukturerte `html` filer i en directory kalt `src/`.
+Vi bruker dermed `find_element` og `switch_to` til å fokusere oss på iframe-tagget der vi kan bruke `page_source` til å hente innholdet. Vi bruker således en for-løkken til å gå gjennom alle side tallene, her bruker vi `driver.get()` til å navigere oss gjennom alle kapittelene. Før det, så lagrer vi iframe innholdet i strukturerte `html` filer i en directory kalt `src/`.
 
 ```python
 page_numbers = [3, 4, 5, 6, 26, 80, 110, 142, 172, 208, 246, 292, 334, 370, 373]
@@ -72,7 +72,7 @@ print("Done!")
 
 ![Suksess!](https://media.giphy.com/media/92jYkH87yxV1C/giphy.gif) 
 
-Og da har du lagret hele boken! 
+Da har du lagret hele boken! 
 
 Du har lov til å piratkopiere til privatbruk! Men ikke del innholdet videre! Det er ulovelig dessverre! 
 
